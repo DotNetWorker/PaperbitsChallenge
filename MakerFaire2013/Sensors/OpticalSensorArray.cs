@@ -17,8 +17,6 @@ namespace MakerFaire2013
         //private static AnalogInput ReflectiveSensor = new AnalogInput(AnalogChannels.ANALOG_PIN_A5);
         private static AnalogInput ReflectiveSensor = new AnalogInput(AnalogChannels.ANALOG_PIN_A5);
         
-       
-
         public event NativeEventHandler CardRead;
 
         

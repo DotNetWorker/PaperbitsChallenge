@@ -2,6 +2,7 @@ using System;
 using Microsoft.SPOT;
 using Microsoft.SPOT.Hardware;
 
+//Class used to control the fan that keeps the wavy man inflated
 namespace MakerFaire2013.FanControl
 {
     class FanController
@@ -20,8 +21,5 @@ namespace MakerFaire2013.FanControl
             System.Threading.Thread.Sleep(30000);
             FanPort.Write(false);
         }
-
-        
-
     }
 }
